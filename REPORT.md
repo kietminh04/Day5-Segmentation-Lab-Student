@@ -4,7 +4,7 @@
 
 - Mã học viên theo lớp: 2A202602300
 - Ngày / CVAT local: 17/09/2026 / http://localhost:8080 (CVAT v2.74.1)
-- Công cụ đã dùng: CVAT 2.74.1 (Polygon, Brush, CVAT Headless REST API, YOLOv8x-seg, SegFormer)
+- Công cụ đã dùng: CVAT 2.74.1 (Brush, Polygon, Intelligent Scissors, CVAT REST API)
 
 Mã học viên là mã lớp cấp; không cần ghi họ tên trong report nếu kênh VLearn đã nhận diện bạn. Chỉ ghi công cụ thật sự đã dùng; không có SAM vẫn làm bài bình thường.
 
