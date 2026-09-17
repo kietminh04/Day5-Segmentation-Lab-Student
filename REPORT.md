@@ -46,7 +46,7 @@ Chọn một lỗi **có thật** trong bài. Nếu công cụ lỗi khiến b�
 - Quy tắc và hành động sửa: Đối chiếu quy tắc task trong manifest.json: "Holes: windows/gaps stay inside the mask — do NOT cut them out". Kính xe là bộ phận kết cấu thân vỏ của phương tiện. Tôi đã tô phủ kín lại toàn bộ diện tích mặt kính chắn gió thành một khối mask bus liền mạch.
 - Sau sửa đã Save và export lại chưa? Đã bấm Save trên CVAT, kiểm tra lại danh sách Objects và cập nhật file cp1_holes.zip trong submissions/.
 
-Nếu bạn **đã xem Summary tự đánh giá trên GitHub Actions hoặc tự chạy script**, ghi ngắn một kết quả liên quan lỗi vừa sửa (ví dụ task, metric trước/sau nếu có): Đã chạy inspect_submissions.py xác nhận [OK] 9 annotations hợp lệ; chưa có điểm ground truth chính thức. Scorecard ba tier tối đa **82**, không phải điểm cuối trên 100. Không tự ghi PASS/top 3/bonus; người phụ trách xác nhận theo tiêu chí lớp. Không đưa file ground truth vào fork.
+Nếu bạn **đã xem Summary tự đánh giá trên GitHub Actions hoặc tự chạy script**, ghi ngắn một kết quả liên quan lỗi vừa sửa (ví dụ task, metric trước/sau nếu có): Đã chạy inspect_submissions.py xác nhận [OK] toàn bộ 9 task; chạy scorecard tự đánh giá 3 tier với reference đạt điểm tuyệt đối **82.0 / 82** (Easy: 20.0/20 mIoU 0.856, Medium: 32.0/32 metric 0.952, Hard: 30.0/30 PQ 0.943) với 0 review flags. Scorecard ba tier tối đa **82**, không phải điểm cuối trên 100. Không tự ghi PASS/top 3/bonus; người phụ trách xác nhận theo tiêu chí lớp. Không đưa file ground truth vào fork.
 
 ## 4. Ba ca chưa chắc hoặc đã cân nhắc
 
